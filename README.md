@@ -1,5 +1,5 @@
 # How to run it
-### using  Python
+### using Python
 ```
 pip install -r requirements.txt
 python tasker_multithreading/src/producer_consumer.py
@@ -7,18 +7,19 @@ python tasker_multithreading/src/producer_consumer.py
 ### using Docker
 ```
 docker build -t tasker_1 .
-docker run -d tasker_1
+docker run tasker_1
 docker logs [CONTAINER]
 ```
 # Structure of directory
 ```
+.
 ├── README.md
 ├── dockerfile
 ├── requirements.txt
 ├── src
 │   └── producer_consumer.py
 └── static
-    └── task_multithreading.gif
+    └── tasker_multithreading.gif
 ```
 src: including the main source code of python file.  
 static: to save the static file as gif, picture, html and else.  
