@@ -2,7 +2,7 @@
 ### using Python
 ```
 pip install -r requirements.txt
-python tasker_multithreading/src/producer_consumer.py
+python src/producer_consumer.py
 ```
 ### using Docker
 ```
