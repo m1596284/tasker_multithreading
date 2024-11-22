@@ -26,7 +26,7 @@ static: to save the static file as gif, picture, html and else.
 # Requirements.txt
 By using the builtin module in python, requirements is empty for this task.  
 # Gif of demonstration
-![gif](static/task_multithreading.gif)  
+![gif](static/tasker_multithreading.gif)  
 # Dockerfile
 ```
 FROM python:3.11-alpine
